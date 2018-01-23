@@ -1,6 +1,7 @@
 from TriviaBot import TriviaBot
 import time
 import numpy as np
+from random import randint
 
 hqbot = TriviaBot()
 
