@@ -11,7 +11,7 @@ The script utilizes Pytesseract to perform OCR on live screenshots of HQ trivia.
 1. The script takes a screenshot of the player's phone while HQTrivia is live
 2. The image is passed to Pytesseract OCR to recognize text in the image
 3. If the text is recognized as the proper question answer format, it moves to step 4, else back to step 1
-4. The question and three answers are parsed and used to stage a variety search heuristics
+4. The question and three answers are parsed and used to stage a variety of search heuristics
 5. The searches are sent to Google and raw HTML is returned
 6. BeautifulSoup is used to strip out relevant information from the search results
 7. These results are analyzed and weighted according to the search heuristic
