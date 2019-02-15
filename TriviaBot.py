@@ -123,7 +123,7 @@ class TriviaBot:
 
   def nlp(self, q):
     client = language.LanguageServiceClient()
-      #credentials='Users/samgriesemer/Downloads/hq-bot-f37d1dc0cc6b.json'
+      #credentials='{}'
 
     document = types.Document(
       content=q,
